@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>정디자인 대표 소개</title>
+  <meta name="description" content="건축, 부동산, AI 활용 분야의 전문가이자 주식회사 정디자인 대표의 소개 페이지">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f6f4ef;
+      --surface: #ffffff;
+      --text: #1f1f1d;
+      --muted: #5f5d57;
+      --line: #dcd8ce;
+      --accent: #b5562b;
+      --grid: rgba(31, 31, 29, 0.05);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #161614;
+        --surface: #1f1f1c;
+        --text: #ecebe6;
+        --muted: #a4a29a;
+        --line: #34332f;
+        --accent: #e0855a;
+        --grid: rgba(236, 235, 230, 0.04);
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: "Noto Sans KR", system-ui, sans-serif;
+      background-color: var(--bg);
+      background-image:
+        linear-gradient(var(--grid) 1px, transparent 1px),
+        linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+      background-size: 32px 32px;
+      color: var(--text);
+      line-height: 1.8;
+      word-break: keep-all;
+    }
+
+    .wrap {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* 상단 */
+    header {
+      padding: 96px 0 72px;
+      border-bottom: 1px solid var(--line);
+    }
+    .label {
+      display: inline-block;
+      font-size: 0.85rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-family: "Noto Serif KR", serif;
+      font-size: clamp(2rem, 6vw, 3.2rem);
+      line-height: 1.3;
+      margin-bottom: 24px;
+    }
+    .lead {
+      font-size: clamp(1.05rem, 2.5vw, 1.25rem);
+      color: var(--muted);
+      max-width: 620px;
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 36px;
+      list-style: none;
+    }
+    .tags li {
+      font-size: 0.9rem;
+      padding: 6px 14px;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      border-radius: 999px;
+    }
+
+    /* 소개 항목 */
+    main { padding: 40px 0 80px; }
+    section {
+      display: grid;
+      grid-template-columns: 72px 1fr;
+      gap: 16px;
+      padding: 40px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    section:last-child { border-bottom: none; }
+    .num {
+      font-family: "Noto Serif KR", serif;
+      font-size: 1.6rem;
+      color: var(--accent);
+      line-height: 1.4;
+    }
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+    section p { color: var(--muted); }
+
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 32px 0 48px;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    @media (max-width: 560px) {
+      header { padding: 64px 0 48px; }
+      section { grid-template-columns: 1fr; gap: 4px; padding: 32px 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="wrap">
+      <span class="label">주식회사 정디자인 대표</span>
+      <h1>건축과 디자인을<br>사랑하는 전문가</h1>
+      <p class="lead">나이에 관계없이 계속 성장하고, 새로운 목표에 도전하며 살아가고 싶습니다.</p>
+      <ul class="tags">
+        <li>건축 디자인</li>
+        <li>건축 CG</li>
+        <li>투시도 · 조감도</li>
+        <li>도시계획</li>
+        <li>부동산 개발</li>
+        <li>AI 활용</li>
+        <li>강의 · 교육</li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <div class="num">01</div>
+      <div>
+        <h2>건축과 디자인을 사랑하는 전문가</h2>
+        <p>건축을 전공하고 부동산학 석사·박사 학위를 취득했습니다. 건축 디자인, 건축 CG, 도시계획, 부동산 개발 등 다양한 분야에서 전문성을 쌓아왔습니다.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="num">02</div>
+      <div>
+        <h2>정디자인을 이끄는 경영자</h2>
+        <p>주식회사 정디자인의 대표로서 건축 CG, 투시도, 조감도, 건축 디자인 및 도시개발 관련 업무를 수행하고 있습니다. 오랜 실무 경험과 전문성을 바탕으로 새로운 가치를 만들어갑니다.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="num">03</div>
+      <div>
+        <h2>끊임없이 배우고 도전하는 사람</h2>
+        <p>AI, 영상 제작, 디지털 콘텐츠 등 새로운 기술에 관심이 많습니다. 변화하는 시대에 적응하는 것을 넘어 새로운 기회를 만들어가고자 노력합니다.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="num">04</div>
+      <div>
+        <h2>지식과 경험을 나누는 교육자</h2>
+        <p>건축, 부동산, AI 활용 분야에서 쌓은 경험을 강의와 교육을 통해 나누고 있습니다. 이론뿐 아니라 실무에서 바로 활용할 수 있는 지식을 전달하는 것을 중요하게 생각합니다.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="num">05</div>
+      <div>
+        <h2>평생 성장하며 일하고 싶은 사람</h2>
+        <p>저에게 일은 단순히 돈을 버는 수단이 아닙니다. 살아 있다는 열정과 보람을 느끼게 하는 원동력입니다. 나이에 관계없이 계속 성장하고, 새로운 목표에 도전하며 살아가고 싶습니다.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© 주식회사 정디자인</div>
+  </footer>
+
+</body>
+</html>
